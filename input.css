@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #ff9900b0; /* b0 al final es la opacidad */
+    --color-primary-dark: #0d8ddb;
+    --color-secondary: #14171a;
+    --color-tertiary: rgb(255, 128, 250);
+    --font-script: Great Vibes, cursive;
+    --breakpoint-xs: 400px;
+}

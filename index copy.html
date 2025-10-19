@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS</title>
+  <link href="./css/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-black p-2 min-h-screen min-w-screen bg-[url('./images/logo_magic.png')] bg-no-repeat bg-center bg-contain flex flex-col">
+
+
+  <header class="flex flex-col items-center min-w-full mt-2 px-2">
+
+    <!-- Botón de Login -->
+    <div class="flex min-w-full justify-end mb-4">
+      <button class="py-1 px-2 flex bg-amber-900/30 border-2 border-amber-900 rounded-full cursor-pointer">
+        <img src="./images/user.svg" alt="magic logo" class="mr-1 w-2 xs:w-4">
+        <span class="text-xs xs:text-sm text-amber-900 text-center font-mono">Login</span>
+      </button>
+    </div>
+
+    <!-- Imágenes centrales -->
+    <img src="./images/magic_logo2.png" alt="magic logo" class="m-4 w-50">
+    <img src="./images/magic_fav.svg" alt="magic logo" class="mx-4 -mt-28.5 w-9 z-10">
+  </header>
+
+
+<main class="mt-20 flex flex-col items-center min-h-80">
+
+  <!-- Párrafo descriptivo -->
+  <p class="text-primary text-balance mb-4 text-center">Search through the complete <span class="italic">Magic: The Gathering</span> database for every card ever printed.</p>
+
+    <!-- Botones de colores del juego -->
+    <div class="flex space-x-8 xs:space-x-10 justify-center">
+
+      <!--Blanco-->
+      <a href="https://magic.wizards.com/es" target="_blank"><img src="./images/magic_blanco.svg" alt="mana_blanco" class="w-8 xs:w-12 mask-radial-at-center mask-radial-from-50% mask-radial-to-80% hover:scale-120 transition-transform"></a>
+
+      <!--Verde-->
+      <a href="https://magic.wizards.com/es" target="_blank"><img src="./images/magic_verde.svg" alt="mana_verde" class="w-8 xs:w-12 mask-radial-at-center mask-radial-from-50% mask-radial-to-80% hover:scale-120 transition-transform"></a>
+
+      <!--Rojo-->
+      <a href="https://magic.wizards.com/es" target="_blank"><img src="./images/magic_rojo.svg" alt="mana_rojo" class="w-8 xs:w-12 mask-radial-at-center mask-radial-from-50% mask-radial-to-80% hover:scale-120 transition-transform"></a>
+
+      <!--Negro-->
+      <a href="https://magic.wizards.com/es" target="_blank"><img src="./images/magic_negro.svg" alt="mana_negro" class="w-8 xs:w-12 mask-radial-at-center mask-radial-from-50% mask-radial-to-80% hover:scale-120 transition-transform"></a>
+
+      <!--Azul-->
+      <a href="https://magic.wizards.com/es" target="_blank"><img src="./images/magic_azul.svg" alt="mana_azul" class="w-8 xs:w-12 mask-radial-at-center mask-radial-from-50% mask-radial-to-80% hover:scale-120 transition-transform"></a>
+    </div>
+
+  </main>
+
+
+<footer class="py-4 mt-10 flex flex-col justify-center">
+
+  <!-- Redes sociales -->
+  <div class="flex gap-2 justify-center">
+
+    <!--GitHub-->
+    <a class="bg-gray-900 size-10 xs:size-12 mx-2 flex items-center justify-center rounded-full hover:scale-110 transition-transform" href="https://github.com/rubenmanero" target="_blank">
+      <svg class="size-6 xs:size-8">
+        <use xlink:href="./images/sprites.svg#github" />
+      </svg>
+    </a>
+
+      <!--LinkedIn-->
+      <a class="bg-white size-9 xs:size-12 mx-2 flex items-center justify-center rounded-full hover:scale-110 transition-transform" href="https://github.com/rubenmanero" target="_blank">
+        <svg class="size-6 xs:size-8">
+          <use xlink:href="./images/sprites.svg#linkedin" />
+        </svg>
+      </a>
+
+      <!--Instagram-->
+      <a class="bg-gray-800 size-9 xs:size-12 mx-2 flex items-center justify-center rounded-full hover:scale-110 transition-transform bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600" href="https://github.com/rubenmanero" target="_blank">
+        <svg class="size-6 xs:size-8">
+          <use xlink:href="./images/sprites.svg#instagram" />
+        </svg>
+      </a>
+
+      <!--Twitter-->
+      <a class="bg-gray-900 size-9 xs:size-12 mx-2 flex items-center justify-center rounded-full hover:scale-110 transition-transform" href="https://github.com/rubenmanero" target="_blank">
+        <svg class="size-6 xs:size-7">
+          <use xlink:href="./images/sprites.svg#x" />
+        </svg>
+      </a>
+
+      <!--YouTube-->
+      <a class="bg-white size-9 xs:size-12 mx-2 flex items-center justify-center rounded-full hover:scale-110 transition-transform" href="https://github.com/rubenmanero" target="_blank">
+        <svg class="size-7 xs:size-9">
+          <use xlink:href="./images/sprites.svg#youtube" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="text-gray-400 text-center text-balance text-xs mt-2">© 2025 Magic: The Gathering Database by Rubén Manero</p>
+
+  </footer>
+
+
+</body>
+</html>
