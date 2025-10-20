@@ -8,3 +8,7 @@
     --font-script: Great Vibes, cursive;
     --breakpoint-xs: 400px;
 }
+
+.social-button {
+    @apply size-9 xs:size-12 mx-2 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
+}
